@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from volcenginesdkarkruntime import Ark
 
+
 def main():
     if len(sys.argv) < 2:
         print(json.dumps({"error": "Usage: python generate.py '<json_payload>'"}), file=sys.stderr)

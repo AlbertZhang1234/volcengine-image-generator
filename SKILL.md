@@ -69,6 +69,7 @@ python .trae/skills/volcengine-seedream-image-generator/scripts/generate.py '{"m
 }
 ```
 
+
 ## 错误处理
 
 如果发生错误，脚本会将包含 `error` 键的 JSON 格式错误信息直接输出到控制台的标准错误（stderr）中，Agent 可以捕获并处理这些信息。
